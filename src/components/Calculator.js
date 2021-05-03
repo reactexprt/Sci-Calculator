@@ -24,7 +24,7 @@ class Calculator extends Component {
   componentDidMount() {
     window.onerror = () => this.setState({ log: 'Syntax Error', clickedEquals: true });
     window.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter' || e.key === '=') {
+      if (e.key === 'Enter') {
         this.handleEqualsClick(this.state.log);
       }
 
