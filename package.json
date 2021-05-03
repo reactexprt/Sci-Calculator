@@ -24,6 +24,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactexprt/Sci-Calculator.git"
+  },
   "browserslist": {
     "production": [
       ">0.2%",

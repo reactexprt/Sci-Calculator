@@ -9,6 +9,7 @@ const Keyboard = props => {
             <NumberPad
                 keyClick={props.keyClick}
                 toggleSideDrawer={props.toggleSideDrawer}
+                sideDrawerOpen={props.sideDrawerOpen}
             />
             <ScientificOperators
                 keyClick={props.keyClick}
